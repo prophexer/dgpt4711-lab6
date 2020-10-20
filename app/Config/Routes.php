@@ -49,3 +49,7 @@ if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php'))
 {
 	require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
+
+$routes->get('/image/(:any)', 'Media::image/$1');
+
+
