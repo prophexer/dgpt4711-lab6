@@ -4,7 +4,7 @@
 		<title>DGPT4711 Lab 04</title>
 	</head>
 	<body>
-		<h1>List of Travel Destinations</h1>
+		<h1>Dog's self-report</h1>
 		{records}
 		<p><a href="/travel/showme/{id}">{name}</a></p>
 		{/records}
