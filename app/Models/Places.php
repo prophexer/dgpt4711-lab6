@@ -1,5 +1,6 @@
 <?php
 namespace App\Models;
+use App\Models\Simple\JSONModel;
  
 
 
@@ -8,10 +9,10 @@ namespace App\Models;
  * Note that we don't have to extend CodeIgniter's model for now
  */
 
-class Places {
+class Places extends JSONModel{
 
     //mock data : an array of records
-    protected $data = [
+    /*protected $data = [
         '1' => [
             'id' => 1,
             'name' => 'Hong Kong',
@@ -47,9 +48,12 @@ class Places {
             'link' => 'http://www.vietnamtourism.gov.vn/english/',
             'image' => 'vietnam.jpg',
         ],
-    ];
+    ];*/
+    protected $origin = WRITEPATH . 'data/placesData.json';
+    protected $keyField = 'id'; protected $validationRules = [];
 
-    public function findAll() {
+    
+    /*public function findAll() {
         return $this->data;
     }
 
@@ -58,6 +62,6 @@ class Places {
             return $this->data[$id];
         }
         return null;
-    }
+    }*/
 
 }
