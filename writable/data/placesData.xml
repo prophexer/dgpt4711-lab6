@@ -12,7 +12,7 @@ and open the template in the editor.
     <country>Siberia</country>
     <HairColor>White</HairColor>
     <Maxweight>27kg</Maxweight>
-    <image>d3.jpg</image>
+    <image>Samoyed.jpg</image>
   </record>
   
   <record>
@@ -22,7 +22,7 @@ and open the template in the editor.
     <country>Scottish Borders</country>
     <HairColor>White | Black</HairColor>
     <Maxweight>14-20kg</Maxweight>
-    <image>d4.jpg</image>
+    <image>BorderCollie.jpg</image>
   </record>
   
   <record>
@@ -32,7 +32,7 @@ and open the template in the editor.
     <country>Canana</country>
     <HairColor>White | Black | Yellow </HairColor>
     <Maxweight>15-20kg</Maxweight>
-    <image>d5.jpg</image>
+    <image>d4.jpg</image>
   </record>
   
    <record>
@@ -42,7 +42,7 @@ and open the template in the editor.
     <country>China</country>
     <HairColor>Yellow | White | Black</HairColor>
     <Maxweight>10-30kg</Maxweight>
-    <image>Samoyed.jpg</image>
+    <image>d3.jpg</image>
   </record>
   
    <record>
@@ -52,7 +52,17 @@ and open the template in the editor.
     <country>Welsh</country>
     <HairColor>Yellow | White</HairColor>
     <Maxweight>10-12kg</Maxweight>
-    <image>BorderCollie.jpg</image>
+    <image>d5.jpg</image>
+  </record>
+
+   <record>
+    <id>6</id>
+    <name>Alaska</name>
+    <description>"Alaskan sled dog is a kind of sled dog with wide head and triangular ears, which is what we often call erha. It is a kind of cute dog. The Alaskan sled dog, also known as the Alaskan dog, is one of the oldest polar sled dogs. Its name comes from the malamut tribe of the Inuit tribe of Eskimos. This tribe lives on the coast of Kotzebue in western Alaska. Adult Allah</description>
+    <country>Americal</country>
+    <HairColor>Red | White and Black</HairColor>
+    <Maxweight>20-30kg</Maxweight>
+    <image>timg.jpg</image>
   </record>
 
 </root>

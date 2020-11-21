@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<title>DGPT4711 Lab 06</title>
+		<title>DGPT4711 Assigment2</title>
 	</head>
 	<body>
 		<h1>Dogs Show</h1>
